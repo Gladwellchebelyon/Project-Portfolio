@@ -1,0 +1,1042 @@
+Internal Server Error: /admin/portfolio_app/project/add/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: "line.fields|length_is:'1'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 208, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 894, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 897, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'length_is'
+"GET /admin/portfolio_app/project/add/ HTTP/1.1" 500 691723
+Internal Server Error: /admin/portfolio_app/project/add/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: "line.fields|length_is:'1'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 208, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 894, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 897, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'length_is'
+"GET /admin/portfolio_app/project/add/ HTTP/1.1" 500 691723
+Internal Server Error: /admin/portfolio_app/project/add/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: "line.fields|length_is:'1'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 208, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 894, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/defaulttags.py", line 897, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/template/base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'length_is'
+"GET /admin/portfolio_app/project/add/ HTTP/1.1" 500 691723
+Internal Server Error: /admin/portfolio_app/skill/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: portfolio_app_skill.icon_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2121, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/models.py", line 697, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: portfolio_app_skill.icon_id
+"GET /admin/portfolio_app/skill/?o= HTTP/1.1" 500 199390
+Internal Server Error: /admin/portfolio_app/skill/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: portfolio_app_skill.icon_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2121, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/models.py", line 697, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: portfolio_app_skill.icon_id
+"GET /admin/portfolio_app/skill/ HTTP/1.1" 500 199043
+Internal Server Error: /admin/portfolio_app/skill/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: portfolio_app_skill.icon_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2121, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/models.py", line 697, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: portfolio_app_skill.icon_id
+"GET /admin/portfolio_app/skill/ HTTP/1.1" 500 199180
+Internal Server Error: /admin/portfolio_app/skill/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: portfolio_app_skill.icon_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2121, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/forms/models.py", line 697, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: portfolio_app_skill.icon_id
+"GET /admin/portfolio_app/skill/ HTTP/1.1" 500 199037
+Internal Server Error: /admin/portfolio_app/techicon/
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: portfolio_app_techicon
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2001, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/options.py", line 866, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/views/main.py", line 146, in __init__
+    self.get_results(request)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/contrib/admin/views/main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okwared/Desktop/Projects Directory/Project-Portfolio/GK/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: portfolio_app_techicon
+"GET /admin/portfolio_app/techicon/ HTTP/1.1" 500 203138

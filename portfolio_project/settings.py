@@ -18,6 +18,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1').split(',')
 
 # Application definition
 INSTALLED_APPS = [
+    "jazzmin",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -97,8 +98,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATICFILES_DIRS = [
+    BASE_DIR / "portfolio_app/static",
+    BASE_DIR / "static",
+]
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Ensure static files are served in development
+if DEBUG:
+    STATICFILES_FINDERS = [
+        'django.contrib.staticfiles.finders.FileSystemFinder',
+        'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    ]
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"

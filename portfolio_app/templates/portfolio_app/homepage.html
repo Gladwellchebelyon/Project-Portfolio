@@ -1,49 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio App</title>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portfolio_app/css/style.css' %}">
 </head>
 <body>
-    <h1>Welcome to My Portfolio!</h1>
-    <p>Here you can find my projects, skills, demos, and contact information.</p>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my projects and skills</p>
+    </header>
 
-    <!-- Projects Section -->
-    <h2>Projects</h2>
-    <ul>
-        {% for project in projects %}
-            <li>
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.description }}</p>
-                {% if project.insights %}
-                    <p><strong>Insights:</strong> {{ project.insights }}</p>
-                {% endif %}
-                {% if project.demo_url %}
-                    <p><a href="{{ project.demo_url }}" target="_blank">Demo</a></p>
-                {% endif %}
-                {% if project.github_url %}
-                    <p><a href="{{ project.github_url }}" target="_blank">GitHub</a></p>
-                {% endif %}
-            </li>
-        {% empty %}
-            <p>No projects available.</p>
-        {% endfor %}
-    
-    <!-- Skills Section -->
-    <h2>Skills</h2>
-    <ul>
-        {% for skill in skills %}
-            <li>{{ skill.name }}</li>
-        {% empty %}
-            <p>No skills listed.</p>
-        {% endfor %}
-    </ul>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- Links Section -->
-    <h2>Find Me On</h2>
-    <p><a href="{{ linkedin_url }}" target="_blank">LinkedIn</a></p>
-    <p><a href="{{ github_url }}" target="_blank">GitHub</a></p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a full-stack developer and data scientist with a passion for building smart and impactful applications.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            {% for skill in skills %}
+            <div class="skill-card">
+                {% if skill.icon %}
+                    <i class="{{ skill.icon.class_name }}"></i>
+                {% endif %}
+                <h3>{{ skill.name }}</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: {{ skill.proficiency }}%"></div>
+                </div>
+                <span class="proficiency">{{ skill.proficiency }}%</span>
+            </div>
+            {% empty %}
+            <p>Skills will be added soon!</p>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            {% for project in projects %}
+            <div class="card">
+                {% if project.image %}
+                    <img src="{{ project.image.url }}" alt="{{ project.title }}">
+                {% else %}
+                    <img src="https://via.placeholder.com/300x200" alt="{{ project.title }}">
+                {% endif %}
+                <div class="card-content">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.description }}</p>
+                    {% if project.insights %}
+                        <p class="insights">{{ project.insights }}</p>
+                    {% endif %}
+                    <div class="project-links">
+                        {% if project.demo_url %}
+                            <a href="{{ project.demo_url }}" target="_blank" class="project-link">Live Demo</a>
+                        {% endif %}
+                        {% if project.github_url %}
+                            <a href="{{ project.github_url }}" target="_blank" class="project-link">GitHub</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <p>Projects will be added soon!</p>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:chepkorirgladwell@gmail.com">chepkorirgladwell@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254723472691">+254 723 472 691</a></p>
+        <div class="social-links">
+            <a href="{{ linkedin_url }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="{{ github_url }}" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; {% now "Y" %} Gladwell Chepkorir | <a href="{{ github_url }}">GitHub</a> | <a href="{{ linkedin_url }}">LinkedIn</a></p>
+    </footer>
 </body>
 </html>
+
