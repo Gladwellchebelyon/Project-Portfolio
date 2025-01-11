@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio App</title>
+</head>
+<body>
+    <h1>Welcome to My Portfolio!</h1>
+    <p>Here you can find my projects, skills, demos, and contact information.</p>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <ul>
+        {% for project in projects %}
+            <li>
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.description }}</p>
+                {% if project.insights %}
+                    <p><strong>Insights:</strong> {{ project.insights }}</p>
+                {% endif %}
+                {% if project.demo_url %}
+                    <p><a href="{{ project.demo_url }}" target="_blank">Demo</a></p>
+                {% endif %}
+                {% if project.github_url %}
+                    <p><a href="{{ project.github_url }}" target="_blank">GitHub</a></p>
+                {% endif %}
+            </li>
+        {% empty %}
+            <p>No projects available.</p>
+        {% endfor %}
+    
+    <!-- Skills Section -->
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in skills %}
+            <li>{{ skill.name }}</li>
+        {% empty %}
+            <p>No skills listed.</p>
+        {% endfor %}
+    </ul>
+
+    <!-- Links Section -->
+    <h2>Find Me On</h2>
+    <p><a href="{{ linkedin_url }}" target="_blank">LinkedIn</a></p>
+    <p><a href="{{ github_url }}" target="_blank">GitHub</a></p>
+</body>
+</html>
