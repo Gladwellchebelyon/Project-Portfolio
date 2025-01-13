@@ -97,11 +97,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "/static/"
+
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
-    BASE_DIR / "portfolio_app/static",
-    BASE_DIR / "static",
+    BASE_DIR / 'static',  # Ensure this directory exists
 ]
+
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Ensure static files are served in development
@@ -124,7 +126,7 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='chepkorirgladwell@example.com')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='chepkorirgladwell@gmail.com')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='gladwell2318')
 
 # Logging for errors
@@ -146,3 +148,4 @@ LOGGING = {
         },
     },
 }
+
