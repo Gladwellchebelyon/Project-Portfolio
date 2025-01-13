@@ -1,6 +1,6 @@
 asgiref==3.8.1
 asttokens==3.0.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backcall==0.2.0
 Bottleneck @ file:///C:/b/abs_f05kqh7yvj/croot/bottleneck_1707864273291/work
 colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
 comm @ file:///C:/b/abs_67a8058udb/croot/comm_1709322909844/work
