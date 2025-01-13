@@ -150,7 +150,7 @@ LOGGING = {
 }
 
 # Allowed hosts configuration
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost', 'project-portfolio-dvj6.onrender.com'cast=lambda v: [s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost', 'project-portfolio-dvj6.onrender.com', cast=lambda v: [s.strip() for s in v.split(',')])
 
 # Gunicorn settings
 PORT = int(config('PORT', default=10000))
