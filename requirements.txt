@@ -1,5 +1,5 @@
 asgiref==3.8.1
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+asttokens==3.0.0
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 Bottleneck @ file:///C:/b/abs_f05kqh7yvj/croot/bottleneck_1707864273291/work
 colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
