@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY', default='your-default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1').split(',')
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'project-portfolio-dvj6.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -150,5 +150,10 @@ LOGGING = {
 }
 
 # Allowed hosts configuration
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost', cast=lambda v: [s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost', 'project-portfolio-dvj6.onrender.com'cast=lambda v: [s.strip() for s in v.split(',')])
+
+# Gunicorn settings
+PORT = int(config('PORT', default=10000))
+HOST = config('HOST', default='0.0.0.0')
+
 
