@@ -12,3 +12,4 @@ scikit-learn==1.5.1
 scipy==1.13.1
 sqlparse==0.5.3
 xgboost==2.1.2
+whitenoise==6.6.0
